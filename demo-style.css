@@ -1,0 +1,20 @@
+/*External Css*/
+h3 {
+    color: yellow;
+    text-decoration: underline;
+}
+
+section{
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 5%;
+}
+p {
+    color: purple;
+    text-decoration: underline;
+}
+
+.external{
+    color: purple;
+    text-decoration: underline;
+}

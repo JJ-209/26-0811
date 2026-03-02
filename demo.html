@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="demo-style.css">
+        <script src="app.js"></script>
+        
+        
+        <!--Internal Css-->
+        <style>
+            h1{
+                color: pink;
+                font-style: italic;
+            }
+
+            body{
+                background-color: slategrey;
+            }
+            p{
+                color: orange;
+                font-weight: bold;
+            }
+            .internal{
+                color: orange;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <!--Inline Css-->
+        <section>
+        <p  style="color: forestgreen; font-weight: bold;">Today is a Beautiful day</p>
+        <h1>Monday is a chance to start a fresh</h1>
+
+        <h3>Mangos Are Sweet</h3>
+        </section>
+        <section>
+            <p style="color: blue; font-style: italic;">Paragraph 1</p>
+            <p class = "internal" >Paragraph2</p>
+            <p class = "external">Paragraph 3</p>
+
+            <h1 style="color: red;">Highlight 1</h1>
+            <h1 class = "internal">Highlight 2</h1>
+            <h1 class = "external">Highlight 3</h1>
+
+            <h3 style="color: brown;">Building 1</h3>
+            <h3 class="internal" style="color: yellow   ;">Building 2</h3>
+            <h3 class = "external">Building 3</h3>
+        </section>
+    </body>
+
+    <footer>
+        <a href="index.html" style="text-transform: capitalize;">back to home Page</a>
+    </footer>
+    </html>
